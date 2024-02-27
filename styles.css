@@ -30,5 +30,77 @@ body {
 
 .content-box .typing-text {
     max-height: 255px;
-    overflow-y: auto;;
+    overflow-y: auto;
+}
+
+.typing-text::-webkit-scrollbar {
+    width: 0;
+}
+
+.typing-text p {
+    font-size: 21px;
+    text-align: justify;
+    letter-spacing: 1px;
+    word-break: break-all;
+}
+
+.content-box .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 17px;
+    padding: 12px 0;
+    border-top: 1px solid #ccc;
+}
+
+.content button {
+    border: none;
+    outline: none;
+    width: 105px;
+    padding: 8px 0;
+    color: #fff;
+    cursor: pointer;
+    background-color: #17a2b8;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.content button:active {
+    transform: scale(0.97);
+}
+
+
+.content .result-details {
+    display: flex;
+    width: calc(100% - 140px);
+    justify-content: space-between;
+}
+
+.result-details li {
+    display: flex;
+    list-style: none;
+    height: 22px
+}
+
+.result-details li:not(:first-child){
+    border-left: 1px solid #ccc;
+    padding-left: 22px
+}
+
+.result-details li p {
+    font-size: 19px;
+}
+
+.result-details li span {
+    display: block;
+    font-size: 20px;
+    margin-left: 10px
+}
+
+.result-details li:not(:first-child) span {
+    font-weight: 500;
+}
+.result-details li {
+    font-weight: 500;
 }
