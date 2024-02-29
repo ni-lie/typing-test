@@ -10,3 +10,5 @@ const paragraphs = [
     "The typing test may have ended, but its impact lingered long after the last word had been typed. It was a reminder of the power of perseverance, of the rewards that come from hard work and dedication. The typist carried this lesson with them as they ventured forth into the world, knowing that no challenge was too great to overcome with the right attitude and determination. And so, armed with newfound confidence, they faced whatever lay ahead, ready to tackle it with the same tenacity that had seen them through the typing test.",
     "In the end, the typing test was more than just a game—it was a journey of self-discovery and growth. It was a testament to the human spirit, to our capacity to learn and adapt in the face of adversity. And as the typist closed their laptop and reflected on the experience, they knew that they had emerged stronger, wiser, and more capable than before. For in the crucible of the typing test, they had found not only skill but also resilience, determination, and the unwavering belief that they could achieve anything they set their mind to."
 ]
+
+  
